@@ -160,13 +160,20 @@
     <!-- CONTACT -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <form>
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="tel" name="phone" placeholder="Phone">
-            <textarea name="message" placeholder="Your message..." required></textarea>
-            <button type="submit" class="btn">Send Message</button>
+        <form action="https://formsubmit.co/tblessingw0t@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="tel" name="phone" placeholder="Phone">
+          <textarea name="message" placeholder="Your message..." required></textarea>
+
+          <!-- Optional fields -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://yourusername.github.io/thank-you.html">
+
+          <button type="submit" class="btn">Send Message</button>
         </form>
+
+
 
         <div class="contact-details">
             <p><strong>Phone:</strong> +1 555 123 4567</p>
